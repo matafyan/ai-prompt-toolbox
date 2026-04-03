@@ -59,7 +59,7 @@ python promptool.py copy writing blog-intro  # 复制提示词到剪贴板
 📊 **使用统计** - 看看你常用哪些
 💾 **云端同步** - 跨设备同步
 
-👉 [升级到 Pro 版](#) （即将上线）
+👉 [立即体验 Web版](https://matafyan.github.io/ai-prompt-web/)
 
 ---
 
