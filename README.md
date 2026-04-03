@@ -2,38 +2,45 @@
 
 > 命令行版 AI 提示词管理工具，让 AI 输出更精准
 
-## 功能特性
+[![Stars](https://img.shields.io/github/stars/matafyan/ai-prompt-toolbox)](https://github.com/matafyan/ai-prompt-toolbox/stargazers)
+[![License](https://img.shields.io/github/license/matafyan/ai-prompt-toolbox)](https://github.com/matafyan/ai-prompt-toolbox)
+
+## 🎯 这个工具能做什么？
+
+- 写不出文案？用它，50+ 提示词一键生成
+- 编程不会提问？用它，AI 帮你Debug
+- 翻译太慢？用它，直接输出专业翻译
+- 运营没灵感？用它，10分钟生成一周内容
+
+## 📦 功能特性
 
 - 📦 **50+ 预设提示词** - 写作、编程、翻译、运营全覆盖
 - ⚡ **一键调用** - 支持 Claude / ChatGPT / 本地模型
 - 🔄 **持续更新** - 社区贡献 + 定期更新
 - 🆓 **免费开源** - 欢迎 Star ⭐
 
-## 安装
+## 🚀 5秒快速开始
 
 ```bash
+# 克隆项目
 git clone https://github.com/matafyan/ai-prompt-toolbox.git
 cd ai-prompt-toolbox
-pip install -r requirements.txt
+
+# 运行
+python promptool.py list              # 查看所有分类
+python promptool.py copy writing blog-intro  # 复制提示词到剪贴板
 ```
 
-## 使用方法
+## 📖 详细使用
 
-```bash
-# 查看所有分类
-python promptool.py list
+| 命令 | 说明 |
+|------|------|
+| `python promptool.py list` | 查看所有分类 |
+| `python promptool.py list writing` | 查看某分类 |
+| `python promptool.py copy writing blog-intro` | 复制到剪贴板 |
+| `python promptool.py get coding code-review` | 打印提示词 |
 
-# 查看某分类下的提示词
-python promptool.py list writing
-
-# 复制提示词到剪贴板
-python promptool.py copy writing blog-intro
-
-# 直接打印提示词
-python promptool.py get writing blog-intro
-```
-
-## 提示词分类
+## 📂 提示词分类
 
 | 分类 | 数量 | 场景 |
 |------|------|------|
@@ -43,14 +50,25 @@ python promptool.py get writing blog-intro
 | operation | 10 | 运营营销 |
 | life | 10 | 生活实用 |
 
-## 支持作者
+## 💰 支持作者
 
 如果这个工具对你有帮助，欢迎打赏 ☕
 
-[**PayPal 打赏**](https://www.paypal.me/matafeiyan)
+[**PayPal 打赏**](https://www.paypal.me/matafeiyan) · [**微信赞助**](https://cdn.jsdelivr.net/gh/matafyan/ai-prompt-toolbox/wechat-pay.png)
 
 ---
 
-## 许可证
+## 📱 微信群
+
+扫码加入「AI 提示词社群」，获取：
+- 每周更新 20+ 新提示词
+- 专属定制服务
+- 行业交流
+
+![微信群](https://cdn.jsdelivr.net/gh/matafyan/ai-prompt-toolbox/wechat-group.png)
+
+---
+
+## 📄 许可证
 
 MIT License - 欢迎 Fork 和贡献
